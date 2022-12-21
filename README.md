@@ -6,14 +6,51 @@ Circular Container/Box
 
 With Flutter:
 
+```yaml
+
 $ flutter pub add circular_container
+
+```
 
 This will add a line like this to your package's pubspec.yaml (and run an implicit flutter pub get):
 
-dependencies:
-circular_container: ^0.0.1
+```yaml
+
+  dependencies: 
+  circular_container: ^0.0.1
+
+```
 
 Alternatively, your editor might support flutter pub get. Check the docs for your editor to learn more.
+
+## Example 
+
+First import the class in your class 
+
+```dart
+
+import 'package:circularbox/circularbox.dart';
+
+```
+
+Example 
+
+```dart
+
+    // This widget is the root of your application.
+    @override 
+    Widget build(BuildContext context) {
+      return CircularBox(
+        child: Container(
+          width:100,
+          height:100,
+        ),
+        radius: 12,
+      );
+    }
+    
+```
+
 
 ## License
 
