@@ -2,7 +2,15 @@
 
 Circular Container/Box
 
+## Platform Support
+
+| Android | iOS | MacOS | Web | Linux | Windows |
+| :-----: | :-: | :---: | :-: | :---: | :-----: |
+|   ✔️    | ✔️  |  ✔️   | ✔️  |  ✔️   |   ✔️    |
+
+
 ## Getting Started
+
 
 With Flutter:
 
